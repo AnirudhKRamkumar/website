@@ -1,0 +1,11 @@
+div#footer {
+    background-color: #28287b;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    overflow: hidden;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+
+}
