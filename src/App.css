@@ -4,3 +4,18 @@
   padding: 2rem;
   text-align: center;
 }
+
+@font-face {
+    font-family: 'DIN';
+    src: url('./fonts/din.ttf') format('truetype');
+}
+
+h1 {
+  color: wheat;
+  font-family: "DIN";
+  font-weight: normal;
+}
+
+p {
+  color: wheat;
+}

@@ -1,6 +1,17 @@
-export default function Square() {
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Navbar from "./pages/Navbar";
+import "./App.css";
+
+function App() {
   return (
-  <>
-    <h1>Hi, I'm Ani(rudh)!</h1>
-  </>);
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
+
+export default App;
