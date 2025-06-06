@@ -1,0 +1,14 @@
+.navbar {
+    margin: 0;
+    width: 100%;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    overflow: hidden;
+    background-color: #28287b;
+    color: white;
+}
+
+.navbar-container {
+  padding-left: 0;  /* px-4 (left) */
+  padding-right: 0; /* px-4 (right) */
+}

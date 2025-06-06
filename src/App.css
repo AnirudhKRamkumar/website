@@ -1,8 +1,7 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0 0;
   text-align: center;
+  width: 100%;
 }
 
 @font-face {
@@ -11,11 +10,11 @@
 }
 
 h1 {
-  color: wheat;
+  color: mintcream;
   font-family: "DIN";
   font-weight: normal;
 }
 
 p {
-  color: wheat;
+  color: mintcream;
 }
