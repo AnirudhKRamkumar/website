@@ -7,5 +7,10 @@ div#footer {
     bottom:0;
     left:0;
     right:0;
+    display:flex;
+    justify-content: right;
+    }
 
+div#footer a {
+    margin-right: 100px;
 }

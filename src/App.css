@@ -1,6 +1,5 @@
 #root {
   margin: 0 0;
-  text-align: center;
   width: 100%;
 }
 
@@ -16,5 +15,7 @@ h1 {
 }
 
 p {
+  text-align: center;
   color: mintcream;
+  font-size: 1.1rem;
 }

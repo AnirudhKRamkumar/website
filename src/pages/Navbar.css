@@ -1,14 +1,25 @@
 .navbar {
     margin: 0;
     width: 100%;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
     overflow: hidden;
     background-color: #28287b;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(40, 80, 123, 0.4); 
 }
 
-.navbar-container {
-  padding-left: 0;  /* px-4 (left) */
-  padding-right: 0; /* px-4 (right) */
+a#name {
+  font-size: 1.3rem;
+  margin-left: 265px; 
+}
+
+span#links {
+  margin-right: 135px;
+}
+span#links a {
+  margin: 0 10px;
 }
